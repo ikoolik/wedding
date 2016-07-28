@@ -1,0 +1,12 @@
+body {
+    font-family: 'Open Sans';
+}
+
+h1, h2 {
+    font-family: 'Poiret One';
+}
+
+.map-container {
+    width: 100%;
+    height: 450px;
+}
