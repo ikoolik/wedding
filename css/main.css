@@ -53,9 +53,23 @@ h1, h2 {
     top: 100%;
     margin-top: -60px
 }
+html,
+body,
+body .container,
+main {
+    height: 100%;
+}
+footer {
+    border-top: 1px solid #ccc;
+    height: 50px;
+    margin-top: -50px;
+    padding: 10px;
+}
 .github {
-    font-size: 200%;
     float: right;
+}
+.github i {
+    font-size: 200%;
 }
 .github a {
     color: #aaa;
@@ -63,3 +77,4 @@ h1, h2 {
 .github a:hover {
     color: #777;
 }
+
