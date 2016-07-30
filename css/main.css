@@ -32,7 +32,19 @@ h1, h2 {
     height: 60px;
     left: 50%;
     margin-left: -30px;
+    opacity: 0.5;
 }
+.rslides_nav,
+.rslides_nav:hover,
+.rslides_nav:active,
+.rslides_nav:visited {
+    color: #fff;
+}
+
+.rslides_nav:hover {
+    opacity: 1;
+}
+
 .rslides_nav.next {
     top:0;
 }
