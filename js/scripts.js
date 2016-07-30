@@ -12,8 +12,8 @@ $(document).ready(function () {
 
 function initToggle (key) {
 
-    var handle = $(`#${key}-handle`),
-        container = $(`#${key}-container`);
+    var handle = $('#' + key + '-handle'),
+        container = $('#' + key + '-container');
 
 
     handle.click(function () {
