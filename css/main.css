@@ -59,12 +59,19 @@ body .container,
 main {
     height: 100%;
 }
+
+
+main {
+    padding-bottom: 50px;
+}
+
 footer {
-    border-top: 1px solid #ccc;
     height: 50px;
     margin-top: -50px;
+    border-top: 1px solid #ccc;
     padding: 10px;
 }
+
 .github {
     float: right;
 }
