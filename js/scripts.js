@@ -1,4 +1,4 @@
-$(document).ready(() => {
+$(document).ready(function () {
     initToggle('map');
     initToggle('route');
     $('.slider').responsiveSlides({
