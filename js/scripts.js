@@ -10,12 +10,13 @@ $(document).ready(() => {
 })
 
 
-const initToggle = key => {
-    let handle = $(`#${key}-handle`),
+function initToggle (key) {
+
+    var handle = $(`#${key}-handle`),
         container = $(`#${key}-container`);
 
 
-    handle.click(() => {
+    handle.click(function () {
         container.toggle();
 
         if(container.is(':visible')) {
