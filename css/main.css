@@ -53,3 +53,13 @@ h1, h2 {
     top: 100%;
     margin-top: -60px
 }
+.github {
+    font-size: 200%;
+    float: right;
+}
+.github a {
+    color: #aaa;
+}
+.github a:hover {
+    color: #777;
+}
