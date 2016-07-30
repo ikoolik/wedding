@@ -4,22 +4,24 @@
     <title>Свадьба 04.08.16</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://use.fontawesome.com/b6a6dfc673.js"></script>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&subset=cyrillic" >
+    <link rel="stylesheet" href="/css/responsiveslides.css">
     <link rel="stylesheet" href="/css/main.css">
 </head>
+
 <body>
     <div class="container">
     <div class="row">
         <div class="col-md-12">
             <h1>Свадьба Иры и Вани!</h1>
-            <ul>
+            <ul class="main-info">
                 <li>Дата: 04 августа 2016. Четверг</li>
                 <li>Время: 16:00</li>
                 <li>Адрес: Шатер Open Family. Петровская коса, 9, Санкт-Петербург</li>
             </ul>
-            <br>
             <ul class="nav nav-tabs" role="tablist">
                 <li role="presentation" class="active">
                     <a href="#info" aria-controls="info" role="tab" data-toggle="tab">Что-то еще?</a>
@@ -49,9 +51,20 @@
                     <div id="map-container" style="display:none">
                         <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=IKQfKXB6zoiwbdEnsN6PMMqOcjFCS9Oo&amp;width=100%&amp;height=450&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
                     </div>
-                    <p>Есть фотографии маршрута по территории. <a href="#" id="route-handle">Показать.</a></p>
+                    <p>Есть фотомаршрут по территории. <a href="#" id="route-handle">Показать.</a></p>
                     <div id="route-container" style="display:none">
-                        фоточки туточки
+                        <div class="slider-container">
+                            <ul class="slider">
+                                <li><img src="/img/slide-01.jpg"></li>
+                                <li><img src="/img/slide-02.jpg"></li>
+                                <li><img src="/img/slide-03.jpg"></li>
+                                <li><img src="/img/slide-04.jpg"></li>
+                                <li><img src="/img/slide-05.jpg"></li>
+                                <li><img src="/img/slide-06.jpg"></li>
+                                <li><img src="/img/slide-07.jpg"></li>
+                                <li><img src="/img/slide-08.jpg"></li>
+                            </ul>
+                        </div>
                     </div>
                 </section>
                 <section role="tabpanel" class="tab-pane" id="question">
@@ -82,6 +95,7 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="/js/responsiveslides.js"></script>
+    <script src="/js/scripts.js"></script>
 </body>
 </html>

@@ -1,10 +1,16 @@
 $(document).ready(() => {
     initToggle('map');
     initToggle('route');
+    $('.slider').responsiveSlides({
+        auto: false,
+        nav: true,
+        prevText: "<i class='fa fa-arrow-circle-down'></i>",
+        nextText: "<i class='fa fa-arrow-circle-up'></i>"
+    });
 })
 
 
-initToggle = key => {
+const initToggle = key => {
     let handle = $(`#${key}-handle`),
         container = $(`#${key}-container`);
 
